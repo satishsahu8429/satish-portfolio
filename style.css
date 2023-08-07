@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;700;800&family=Lato&display=swap');
 body {
   font-family: var(--font);
   background-color: rgb(237, 244, 237);
@@ -266,6 +266,7 @@ menu.responsive {
   width: 100%;
   margin: 0 auto;
   padding: 40px 0;
+  font-family: var(--font);
 }
 
 .edu_heading p {
@@ -295,6 +296,16 @@ h2.underline {
   margin-bottom: 15px;
 }
 
+.education .info_card a{
+
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.education .info_card a:hover{
+  color: black;
+}
+
 .education .info_card h5 {
   font-size: 18px;
   font-weight: 600;
@@ -306,6 +317,7 @@ h2.underline {
 
 .education .info_card a {
   color: var(--main-color);
+  font-size: 16px;
 }
 
 .collage_img {
@@ -375,6 +387,7 @@ h2.underline {
 .content a {
 
   color: var(--main-color);
+  text-decoration: none;
 }
 
 .content:hover {
@@ -551,6 +564,17 @@ p.arrow::after {
   border-radius: 16px;
 }
 
+.project_card p.project_info {
+  height: 110px;
+}
+
+.project_card:hover{
+  border: 1px solid #afc9afb5;
+  transition: 0.9s ease all;
+
+}
+
+
 .project_card p {
   color: var(--gray);
 }
@@ -596,6 +620,12 @@ button.send_btn {
 
 .project_card a {
   color: var(--main-color);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.project_card a:hover{
+  color: black;
 }
 
 .footer_section {
@@ -748,6 +778,7 @@ section.skill_section {
   border-radius: 44px;
   padding-bottom: 20px;
 }
+
 
 .footer_section .fa-whatsapp {
 

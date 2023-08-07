@@ -108,6 +108,11 @@
 		  width: 100%;
 		}
 	  
+		.command_heading.experience h2.underline::after {
+			position: absolute;
+			content: '';
+			display: none;
+		}
 	  
 
 }
